@@ -5,7 +5,7 @@ ENV GIT_COIN_NAME   tdc
 
 RUN	git clone $GIT_COIN_URL $GIT_COIN_NAME \
 	&& cd $GIT_COIN_NAME \
-	&& git checkout tags/v1.0.3 \
+	&& git checkout tags/v1.1.0 \
 	&& chmod +x autogen.sh \
 	&& chmod +x share/genbuild.sh \
 	&& chmod +x src/leveldb/build_detect_platform \
